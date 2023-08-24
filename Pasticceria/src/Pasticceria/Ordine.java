@@ -20,12 +20,15 @@ public class Ordine {
 		this.Note = Note;
 		this.Stato = StatoOrdine.ATTESA; // all'inizio lo stato è in attesa
 
-		int tot = 0; // all'inizio zero prodotti
+	/*	
+	 * QUANTITà DA GESTIRE TRAMITE JAVASWING
+	 * 
+	 * int tot = 0;                     
 		for (Prodotto prod : listaProd) {
-			tot = tot + prod.getQta();
+			tot = tot++;
 		}
 		this.Totqta = tot;
-
+   */
 	}
 
 	public int getNOrdine() {

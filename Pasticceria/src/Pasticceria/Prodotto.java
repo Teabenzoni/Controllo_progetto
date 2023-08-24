@@ -8,15 +8,13 @@ public class Prodotto {
 	public String IDprodotto;
 	public String Nome;
 	public float Prezzo;
-	public int qta;
 	public ArrayList<String> Ingredienti; // da controllare ( sbagliato)
 
-	public Prodotto(String ID, String nome, float prezzo, int qta, ArrayList<String> Ingr) {
+	public Prodotto(String ID, String nome, float prezzo, ArrayList<String> Ingr) {
 		this.IDprodotto = ID;
 		this.Nome = nome;
 		this.Prezzo = prezzo;
 		this.Ingredienti = Ingr;
-		this.qta = qta;
 	}
 
 	public String getIDprodotto() {
@@ -47,13 +45,6 @@ public class Prodotto {
 		this.Prezzo = prezzo;
 	}
 
-	public int getQta() {
-		return qta;
-	}
-
-	public void setQta(int qta) {
-		this.qta = qta;
-	}
 
 	public ArrayList<String> setIngredienti(String Ing) { // non posso usarlo per creare il prodotto
 		Ingredienti.add(Ing);
