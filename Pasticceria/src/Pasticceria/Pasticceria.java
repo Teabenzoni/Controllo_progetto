@@ -20,7 +20,8 @@ public class Pasticceria {
 			}
 		}
 	}
-
+	
+	
 	public void Lavorazione(int codOrd) {
 		for (Ordine O : ordine) {
 			if (codOrd == O.getNOrdine()) {
