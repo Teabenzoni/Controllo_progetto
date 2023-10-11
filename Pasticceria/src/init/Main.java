@@ -16,7 +16,7 @@ public class Main {
 					User loginmodel = new User("", "");
 					LoginController logincontroller = new LoginController(loginif, loginmodel);
 					loginif.setVisible(true);
-					System.out.println("test sulla pull request");
+					System.out.println("ci rimanda!");
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
